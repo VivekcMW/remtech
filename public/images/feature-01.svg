@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="600" fill="#0a0a0a"/>
+
+  <!-- Subtle grid -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Center axis (dashed) -->
+  <line x1="60" y1="300" x2="740" y2="300" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 4"/>
+
+  <!-- Shank body -->
+  <rect x="70" y="268" width="320" height="64" fill="#161616" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+
+  <!-- Transition shoulder -->
+  <path d="M 390 268 L 420 268 L 420 332 L 390 332 Z" fill="#161616" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Cutting section body -->
+  <path d="M 420 275 L 700 278 L 718 300 L 700 322 L 420 325 Z" fill="#1a1a1a" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+
+  <!-- Flute lines on cutting section (right-hand helix) -->
+  <line x1="440" y1="275" x2="465" y2="325" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="475" y1="275" x2="500" y2="325" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="510" y1="275" x2="535" y2="325" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="545" y1="275" x2="570" y2="325" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="580" y1="276" x2="605" y2="324" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="615" y1="277" x2="638" y2="323" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="648" y1="278" x2="667" y2="319" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="678" y1="279" x2="694" y2="315" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- ── Diameter dimension line ── -->
+  <!-- Vertical witness lines -->
+  <line x1="200" y1="246" x2="200" y2="268" stroke="#f97316" stroke-width="1"/>
+  <line x1="200" y1="332" x2="200" y2="354" stroke="#f97316" stroke-width="1"/>
+  <!-- Arrow shaft -->
+  <line x1="200" y1="249" x2="200" y2="351" stroke="#f97316" stroke-width="1"/>
+  <!-- Arrow heads -->
+  <polygon points="197,269 200,257 203,269" fill="#f97316"/>
+  <polygon points="197,331 200,343 203,331" fill="#f97316"/>
+  <!-- Dimension label -->
+  <text x="162" y="304" font-family="monospace" font-size="12" fill="#f97316" text-anchor="middle">Ø 12.000</text>
+
+  <!-- Tolerance callout bubble -->
+  <rect x="302" y="166" width="196" height="44" rx="2" fill="#0a0a0a" stroke="rgba(249,115,22,0.25)" stroke-width="1"/>
+  <text x="400" y="183" font-family="monospace" font-size="11" fill="rgba(249,115,22,0.8)" text-anchor="middle">TOLERANCE</text>
+  <text x="400" y="200" font-family="monospace" font-size="14" fill="#f97316" text-anchor="middle" font-weight="bold">±0.002 mm</text>
+  <!-- Leader line -->
+  <line x1="400" y1="210" x2="400" y2="275" stroke="rgba(249,115,22,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Section labels -->
+  <text x="230" y="252" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.22)" text-anchor="middle" letter-spacing="1">SHANK</text>
+  <text x="570" y="252" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.22)" text-anchor="middle" letter-spacing="1">CUTTING SECTION · 4-FLUTE</text>
+
+  <!-- Coolant-through indicator -->
+  <circle cx="230" cy="300" r="6" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="230" cy="300" r="2" fill="rgba(255,255,255,0.08)"/>
+
+  <!-- Material note -->
+  <text x="720" y="415" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · K10 MICRO-GRAIN CARBIDE</text>
+  <text x="720" y="431" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">COATING · TiAlN</text>
+  <text x="720" y="447" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">TOLERANCE · H7 (IT6 ON REQUEST)</text>
+
+  <!-- Corner origin mark -->
+  <line x1="60" y1="60" x2="90" y2="60" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <line x1="60" y1="60" x2="60" y2="90" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <circle cx="60" cy="60" r="2" fill="#f97316" opacity="0.4"/>
+
+  <!-- Product code -->
+  <text x="720" y="560" font-family="monospace" font-size="18" fill="rgba(249,115,22,0.45)" text-anchor="end" font-weight="bold" letter-spacing="2">SCR-H7</text>
+</svg>

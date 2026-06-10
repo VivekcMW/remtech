@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <line x1="0" y1="125" x2="800" y2="125" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="375" x2="800" y2="375" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center axis -->
+  <line x1="55" y1="250" x2="745" y2="250" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 4"/>
+  <!-- Square drive end (taper reamers have square drive) -->
+  <rect x="65" y="226" width="46" height="48" fill="#1e1e1e" stroke="rgba(255,255,255,0.16)" stroke-width="1.5"/>
+  <line x1="65" y1="226" x2="111" y2="274" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="111" y1="226" x2="65" y2="274" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- Taper body — full tapered profile (gets narrower to the right) -->
+  <path d="M 111 218 L 720 240 L 720 260 L 111 282 Z" fill="#1a1a1a" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+  <!-- Taper flute lines -->
+  <line x1="145" y1="219" x2="160" y2="281" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="210" y1="222" x2="224" y2="278" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="280" y1="224" x2="293" y2="276" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="355" y1="226" x2="367" y2="274" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="435" y1="228" x2="446" y2="272" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="515" y1="230" x2="525" y2="270" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="595" y1="233" x2="604" y2="267" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="670" y1="236" x2="678" y2="264" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <!-- Taper angle annotation lines -->
+  <line x1="111" y1="282" x2="720" y2="282" stroke="rgba(245,158,11,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="111" y1="218" x2="720" y2="218" stroke="rgba(245,158,11,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Left diameter witness -->
+  <line x1="111" y1="195" x2="111" y2="218" stroke="#f59e0b" stroke-width="1"/>
+  <line x1="111" y1="282" x2="111" y2="305" stroke="#f59e0b" stroke-width="1"/>
+  <line x1="111" y1="198" x2="111" y2="302" stroke="#f59e0b" stroke-width="1"/>
+  <polygon points="108,219 111,207 114,219" fill="#f59e0b"/>
+  <polygon points="108,281 111,293 114,281" fill="#f59e0b"/>
+  <text x="74" y="254" font-family="monospace" font-size="10" fill="#f59e0b" text-anchor="middle">Ø LARGE</text>
+  <!-- Right diameter witness -->
+  <line x1="720" y1="220" x2="720" y2="240" stroke="#f59e0b" stroke-width="1"/>
+  <line x1="720" y1="260" x2="720" y2="280" stroke="#f59e0b" stroke-width="1"/>
+  <line x1="720" y1="223" x2="720" y2="277" stroke="#f59e0b" stroke-width="1"/>
+  <polygon points="717,241 720,229 723,241" fill="#f59e0b"/>
+  <polygon points="717,259 720,271 723,259" fill="#f59e0b"/>
+  <text x="757" y="254" font-family="monospace" font-size="10" fill="#f59e0b" text-anchor="middle">Ø SMALL</text>
+  <!-- Taper ratio callout -->
+  <rect x="298" y="136" width="204" height="44" rx="2" fill="#0a0a0a" stroke="rgba(245,158,11,0.25)" stroke-width="1"/>
+  <text x="400" y="153" font-family="monospace" font-size="10" fill="rgba(245,158,11,0.7)" text-anchor="middle">TAPER RATIO · AT3</text>
+  <text x="400" y="171" font-family="monospace" font-size="14" fill="#f59e0b" text-anchor="middle" font-weight="bold">1:20 (Morse)</text>
+  <line x1="400" y1="180" x2="400" y2="228" stroke="rgba(245,158,11,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Angle arc -->
+  <path d="M 150 250 A 45 45 0 0 1 193 233" stroke="#f59e0b" stroke-width="1" fill="none" opacity="0.4"/>
+  <text x="175" y="222" font-family="monospace" font-size="9" fill="rgba(245,158,11,0.6)">α</text>
+  <!-- Section labels -->
+  <text x="88" y="208" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.2)" text-anchor="middle">DRIVE</text>
+  <text x="420" y="208" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">TAPERED CUTTING SECTION · 6-FLUTE</text>
+  <!-- Material notes -->
+  <text x="730" y="360" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · M2 HSS / K10 CARBIDE</text>
+  <text x="730" y="375" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">TAPER · MORSE MT0 – MT6 / NPT / STRAIGHT</text>
+  <text x="730" y="390" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">TOLERANCE · AT3 TAPER CLASS</text>
+  <!-- Origin mark -->
+  <line x1="55" y1="55" x2="82" y2="55" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+  <line x1="55" y1="55" x2="55" y2="82" stroke="rgba(245,158,11,0.3)" stroke-width="1"/>
+  <circle cx="55" cy="55" r="2" fill="#f59e0b" opacity="0.4"/>
+  <!-- Product code watermark -->
+  <text x="730" y="460" font-family="monospace" font-size="20" fill="rgba(245,158,11,0.4)" text-anchor="end" font-weight="bold" letter-spacing="2">TBR-MTP</text>
+</svg>

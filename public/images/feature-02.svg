@@ -1,0 +1,75 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="600" fill="#0a0a0a"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Cross-section circle (bore view from front) -->
+  <!-- Outer diameter -->
+  <circle cx="310" cy="300" r="160" fill="#111111" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <!-- Inner bore -->
+  <circle cx="310" cy="300" r="90" fill="#0a0a0a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Bore centermark -->
+  <line x1="300" y1="300" x2="320" y2="300" stroke="#f97316" stroke-width="1" opacity="0.5"/>
+  <line x1="310" y1="290" x2="310" y2="310" stroke="#f97316" stroke-width="1" opacity="0.5"/>
+  <circle cx="310" cy="300" r="2" fill="#f97316" opacity="0.6"/>
+
+  <!-- 4 Cutting edges at 90° intervals (carbide tips on body) -->
+  <rect x="296" y="138" width="28" height="18" rx="2" fill="#2a2a2a" stroke="rgba(249,115,22,0.4)" stroke-width="1.5" transform="rotate(0 310 300)"/>
+  <rect x="296" y="444" width="28" height="18" rx="2" fill="#2a2a2a" stroke="rgba(249,115,22,0.4)" stroke-width="1.5" transform="rotate(0 310 300)"/>
+  <rect x="148" y="291" width="18" height="18" rx="2" fill="#2a2a2a" stroke="rgba(249,115,22,0.4)" stroke-width="1.5" transform="rotate(0 310 300)"/>
+  <rect x="454" y="291" width="18" height="18" rx="2" fill="#2a2a2a" stroke="rgba(249,115,22,0.4)" stroke-width="1.5" transform="rotate(0 310 300)"/>
+
+  <!-- Expansion arrows (orange, outward from center) -->
+  <!-- Top arrow -->
+  <line x1="310" y1="210" x2="310" y2="138" stroke="#f97316" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <polygon points="306,142 310,128 314,142" fill="#f97316"/>
+  <!-- Bottom arrow -->
+  <line x1="310" y1="390" x2="310" y2="462" stroke="#f97316" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <polygon points="306,458 310,472 314,458" fill="#f97316"/>
+
+  <!-- Adjustment range callout -->
+  <!-- Bracket lines left side -->
+  <line x1="175" y1="260" x2="147" y2="260" stroke="rgba(249,115,22,0.35)" stroke-width="1"/>
+  <line x1="175" y1="340" x2="147" y2="340" stroke="rgba(249,115,22,0.35)" stroke-width="1"/>
+  <line x1="147" y1="260" x2="147" y2="340" stroke="rgba(249,115,22,0.35)" stroke-width="1"/>
+  <text x="70" y="304" font-family="monospace" font-size="11" fill="rgba(249,115,22,0.7)" text-anchor="middle">±0.05</text>
+  <text x="70" y="318" font-family="monospace" font-size="9" fill="rgba(249,115,22,0.5)" text-anchor="middle">mm range</text>
+
+  <!-- Section: right side — profile view of the reamer body -->
+  <!-- Body -->
+  <rect x="530" y="255" width="200" height="90" fill="#161616" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Adjustment screw cap -->
+  <rect x="714" y="248" width="26" height="104" rx="4" fill="#1e1e1e" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+  <!-- Slots on screw cap -->
+  <line x1="727" y1="280" x2="727" y2="320" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <line x1="720" y1="300" x2="734" y2="300" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <!-- Expansion slot in body -->
+  <line x1="530" y1="300" x2="714" y2="300" stroke="rgba(249,115,22,0.12)" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- Brazed tip inserts -->
+  <rect x="525" y="255" width="12" height="16" rx="1" fill="#2a2a2a" stroke="rgba(249,115,22,0.5)" stroke-width="1"/>
+  <rect x="525" y="329" width="12" height="16" rx="1" fill="#2a2a2a" stroke="rgba(249,115,22,0.5)" stroke-width="1"/>
+
+  <!-- Labels -->
+  <text x="630" y="240" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">TOOL BODY PROFILE</text>
+  <text x="727" y="368" font-family="monospace" font-size="8" fill="rgba(255,255,255,0.18)" text-anchor="middle">ADJ. SCREW</text>
+  <text x="536" y="285" font-family="monospace" font-size="8" fill="rgba(249,115,22,0.5)">TIP</text>
+
+  <!-- Material note -->
+  <text x="740" y="430" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · P30 CARBIDE TIPS</text>
+  <text x="740" y="446" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">ADJUSTMENT RANGE · ±0.05 mm</text>
+  <text x="740" y="462" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.18)" text-anchor="end">TOOL LIFE INCREASE · 60%</text>
+
+  <!-- Origin mark -->
+  <line x1="60" y1="60" x2="90" y2="60" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <line x1="60" y1="60" x2="60" y2="90" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <circle cx="60" cy="60" r="2" fill="#f97316" opacity="0.4"/>
+
+  <!-- Product code -->
+  <text x="740" y="560" font-family="monospace" font-size="18" fill="rgba(249,115,22,0.45)" text-anchor="end" font-weight="bold" letter-spacing="2">BTR-EXP</text>
+</svg>

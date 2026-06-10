@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <line x1="0" y1="125" x2="800" y2="125" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="375" x2="800" y2="375" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center axis -->
+  <line x1="55" y1="250" x2="745" y2="250" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 4"/>
+  <!-- Shank -->
+  <rect x="65" y="228" width="290" height="44" fill="#161616" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Body with flats (wrench grip zone) -->
+  <rect x="355" y="220" width="70" height="60" fill="#181818" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Flat indicators -->
+  <line x1="355" y1="228" x2="425" y2="228" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+  <line x1="355" y1="272" x2="425" y2="272" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+  <!-- Main body -->
+  <rect x="425" y="222" width="200" height="56" fill="#1a1a1a" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Expansion slots (dashed lines through body) -->
+  <line x1="425" y1="238" x2="625" y2="238" stroke="rgba(244,63,94,0.15)" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <line x1="425" y1="262" x2="625" y2="262" stroke="rgba(244,63,94,0.15)" stroke-width="1.5" stroke-dasharray="6 3"/>
+  <!-- Brazed carbide tips (4 tips) -->
+  <rect x="618" y="218" width="18" height="14" rx="2" fill="#222" stroke="rgba(244,63,94,0.6)" stroke-width="1.5"/>
+  <rect x="618" y="268" width="18" height="14" rx="2" fill="#222" stroke="rgba(244,63,94,0.6)" stroke-width="1.5"/>
+  <!-- Cutting end taper -->
+  <path d="M 636 222 L 700 228 L 716 250 L 700 272 L 636 278 Z" fill="#1c1c1c" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Tip callout labels -->
+  <line x1="627" y1="218" x2="627" y2="178" stroke="rgba(244,63,94,0.3)" stroke-width="1"/>
+  <text x="595" y="172" font-family="monospace" font-size="9" fill="rgba(244,63,94,0.7)" text-anchor="middle">BRAZED TIP</text>
+  <!-- Adjustment callout -->
+  <line x1="355" y1="220" x2="330" y2="170" stroke="rgba(244,63,94,0.25)" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="240" y="140" width="178" height="40" rx="2" fill="#0a0a0a" stroke="rgba(244,63,94,0.25)" stroke-width="1"/>
+  <text x="329" y="157" font-family="monospace" font-size="10" fill="rgba(244,63,94,0.7)" text-anchor="middle">EXPANSION RANGE</text>
+  <text x="329" y="172" font-family="monospace" font-size="13" fill="#f43f5e" text-anchor="middle" font-weight="bold">±0.05 mm</text>
+  <!-- Expansion arrows -->
+  <line x1="525" y1="212" x2="525" y2="190" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="522,194 525,182 528,194" fill="#f43f5e"/>
+  <line x1="525" y1="288" x2="525" y2="310" stroke="#f43f5e" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="522,306 525,318 528,306" fill="#f43f5e"/>
+  <!-- Section labels -->
+  <text x="210" y="210" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">SHANK · h6</text>
+  <text x="390" y="210" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">BODY</text>
+  <text x="525" y="210" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">CUTTING SECTION</text>
+  <!-- Diameter dimension -->
+  <line x1="175" y1="208" x2="175" y2="228" stroke="#f43f5e" stroke-width="1"/>
+  <line x1="175" y1="272" x2="175" y2="292" stroke="#f43f5e" stroke-width="1"/>
+  <line x1="175" y1="211" x2="175" y2="289" stroke="#f43f5e" stroke-width="1"/>
+  <polygon points="172,229 175,217 178,229" fill="#f43f5e"/>
+  <polygon points="172,271 175,283 178,271" fill="#f43f5e"/>
+  <text x="138" y="254" font-family="monospace" font-size="11" fill="#f43f5e" text-anchor="middle">Ø 25.000</text>
+  <!-- Material notes -->
+  <text x="730" y="360" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · P30 CARBIDE TIPS · ALLOY STEEL BODY</text>
+  <text x="730" y="375" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">TOLERANCE · H7 – H9 ADJUSTABLE</text>
+  <text x="730" y="390" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">COATING · TiN BRAZED TIPS</text>
+  <!-- Origin mark -->
+  <line x1="55" y1="55" x2="82" y2="55" stroke="rgba(244,63,94,0.3)" stroke-width="1"/>
+  <line x1="55" y1="55" x2="55" y2="82" stroke="rgba(244,63,94,0.3)" stroke-width="1"/>
+  <circle cx="55" cy="55" r="2" fill="#f43f5e" opacity="0.4"/>
+  <!-- Product code watermark -->
+  <text x="730" y="460" font-family="monospace" font-size="20" fill="rgba(244,63,94,0.4)" text-anchor="end" font-weight="bold" letter-spacing="2">BTR-EXP</text>
+</svg>

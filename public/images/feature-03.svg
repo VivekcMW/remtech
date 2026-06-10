@@ -1,0 +1,76 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="600" fill="#0a0a0a"/>
+
+  <!-- Grid -->
+  <line x1="0" y1="150" x2="800" y2="150" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="300" x2="800" y2="300" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="450" x2="800" y2="450" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="600" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+
+  <!-- Center axis -->
+  <line x1="60" y1="300" x2="740" y2="300" stroke="rgba(255,255,255,0.04)" stroke-width="1" stroke-dasharray="8 4"/>
+
+  <!-- CNC SPINDLE (left) — BT40 style taper -->
+  <!-- Spindle housing outline -->
+  <path d="M 80 220 L 160 220 L 180 240 L 180 360 L 160 380 L 80 380 Z" fill="#141414" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Taper bore -->
+  <path d="M 180 260 L 230 270 L 230 330 L 180 340 Z" fill="#0e0e0e" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Spindle label -->
+  <text x="120" y="418" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">CNC SPINDLE</text>
+
+  <!-- TOOL HOLDER (center) — BT40/HSK style -->
+  <!-- Taper shank -->
+  <path d="M 230 272 L 310 278 L 310 322 L 230 328 Z" fill="#1a1a1a" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <!-- Flange -->
+  <rect x="310" y="260" width="50" height="80" fill="#1e1e1e" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <!-- Retention knob -->
+  <rect x="90" y="285" width="30" height="30" rx="2" fill="#1a1a1a" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Coolant through holes on flange -->
+  <circle cx="335" cy="285" r="4" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <circle cx="335" cy="315" r="4" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- COLLET/ADAPTER -->
+  <rect x="360" y="272" width="60" height="56" fill="#161616" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- REAMER BODY -->
+  <rect x="420" y="278" width="240" height="44" fill="#1a1a1a" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <!-- Cutting end taper -->
+  <path d="M 660 278 L 700 286 L 716 300 L 700 314 L 660 322 Z" fill="#1a1a1a" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+  <!-- Flutes on reamer -->
+  <line x1="440" y1="278" x2="458" y2="322" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="475" y1="278" x2="493" y2="322" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="510" y1="278" x2="528" y2="322" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="545" y1="278" x2="563" y2="322" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="580" y1="278" x2="598" y2="322" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="615" y1="279" x2="630" y2="319" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+
+  <!-- INTERFACE LABEL CALLOUTS -->
+  <!-- BT40 label on taper -->
+  <line x1="270" y1="275" x2="270" y2="220" stroke="rgba(249,115,22,0.25)" stroke-width="1" stroke-dasharray="3 3"/>
+  <rect x="218" y="196" width="106" height="28" rx="2" fill="#0a0a0a" stroke="rgba(249,115,22,0.2)" stroke-width="1"/>
+  <text x="271" y="214" font-family="monospace" font-size="11" fill="rgba(249,115,22,0.7)" text-anchor="middle" font-weight="bold">BT40 / HSK-A63</text>
+
+  <!-- CAT40 below -->
+  <line x1="335" y1="340" x2="335" y2="400" stroke="rgba(249,115,22,0.2)" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="335" y="415" font-family="monospace" font-size="10" fill="rgba(249,115,22,0.5)" text-anchor="middle">CAT40 COMPATIBLE</text>
+
+  <!-- "DIRECT REPLACEMENT" label -->
+  <rect x="418" y="168" width="244" height="28" rx="2" fill="#0a0a0a" stroke="rgba(249,115,22,0.2)" stroke-width="1"/>
+  <text x="540" y="187" font-family="monospace" font-size="11" fill="rgba(249,115,22,0.65)" text-anchor="middle">DIRECT REPLACEMENT</text>
+  <line x1="540" y1="196" x2="540" y2="278" stroke="rgba(249,115,22,0.15)" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- Assembly compatibility checkmarks -->
+  <text x="80" y="510" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.2)" letter-spacing="1">✓ NO MACHINE MODIFICATION REQUIRED</text>
+  <text x="80" y="527" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.2)" letter-spacing="1">✓ STANDARD HOLDER COMPATIBILITY</text>
+  <text x="80" y="544" font-family="monospace" font-size="10" fill="rgba(255,255,255,0.2)" letter-spacing="1">✓ CNC / MANUAL OPERATION</text>
+
+  <!-- Origin mark -->
+  <line x1="60" y1="60" x2="90" y2="60" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <line x1="60" y1="60" x2="60" y2="90" stroke="rgba(249,115,22,0.3)" stroke-width="1"/>
+  <circle cx="60" cy="60" r="2" fill="#f97316" opacity="0.4"/>
+
+  <!-- Product code -->
+  <text x="740" y="560" font-family="monospace" font-size="18" fill="rgba(249,115,22,0.45)" text-anchor="end" font-weight="bold" letter-spacing="2">RETROFIT</text>
+</svg>

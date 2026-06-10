@@ -1,0 +1,67 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <line x1="0" y1="125" x2="800" y2="125" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="375" x2="800" y2="375" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center axis -->
+  <line x1="55" y1="250" x2="745" y2="250" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 4"/>
+  <!-- Shank -->
+  <rect x="65" y="226" width="310" height="48" fill="#161616" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Shoulder -->
+  <path d="M 375 222 L 415 222 L 415 278 L 375 278 Z" fill="#181818" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- Main body -->
+  <rect x="415" y="222" width="240" height="56" fill="#1a1a1a" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Taper at cutting end -->
+  <path d="M 655 222 L 708 232 L 720 250 L 708 268 L 655 278 Z" fill="#1c1c1c" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- 4 PCD tip inserts (highlighted differently) -->
+  <!-- Top tip -->
+  <polygon points="655,218 670,208 682,218 670,222" fill="#2a1a3a" stroke="rgba(168,85,247,0.7)" stroke-width="1.5"/>
+  <!-- Bottom tip -->
+  <polygon points="655,282 670,292 682,282 670,278" fill="#2a1a3a" stroke="rgba(168,85,247,0.7)" stroke-width="1.5"/>
+  <!-- Right top -->
+  <polygon points="698,228 712,222 718,232 706,236" fill="#2a1a3a" stroke="rgba(168,85,247,0.6)" stroke-width="1.5"/>
+  <!-- Right bottom -->
+  <polygon points="698,272 712,278 718,268 706,264" fill="#2a1a3a" stroke="rgba(168,85,247,0.6)" stroke-width="1.5"/>
+  <!-- PCD tip glow -->
+  <polygon points="655,218 670,208 682,218 670,222" fill="rgba(168,85,247,0.12)"/>
+  <polygon points="655,282 670,292 682,282 670,278" fill="rgba(168,85,247,0.12)"/>
+  <!-- Flute lines on body -->
+  <line x1="435" y1="222" x2="455" y2="278" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="480" y1="222" x2="500" y2="278" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="525" y1="222" x2="545" y2="278" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="570" y1="222" x2="590" y2="278" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <line x1="615" y1="223" x2="633" y2="277" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <!-- PCD tip label -->
+  <line x1="670" y1="208" x2="670" y2="160" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <text x="670" y="150" font-family="monospace" font-size="9" fill="rgba(168,85,247,0.8)" text-anchor="middle" letter-spacing="1">PCD GRADE DA90</text>
+  <!-- Surface finish callout -->
+  <rect x="280" y="136" width="210" height="44" rx="2" fill="#0a0a0a" stroke="rgba(168,85,247,0.25)" stroke-width="1"/>
+  <text x="385" y="153" font-family="monospace" font-size="10" fill="rgba(168,85,247,0.7)" text-anchor="middle">SURFACE FINISH</text>
+  <text x="385" y="171" font-family="monospace" font-size="14" fill="#a855f7" text-anchor="middle" font-weight="bold">Ra ≤ 0.4 µm</text>
+  <line x1="385" y1="180" x2="460" y2="222" stroke="rgba(168,85,247,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Diameter dimension -->
+  <line x1="195" y1="206" x2="195" y2="226" stroke="#a855f7" stroke-width="1"/>
+  <line x1="195" y1="274" x2="195" y2="294" stroke="#a855f7" stroke-width="1"/>
+  <line x1="195" y1="209" x2="195" y2="291" stroke="#a855f7" stroke-width="1"/>
+  <polygon points="192,227 195,215 198,227" fill="#a855f7"/>
+  <polygon points="192,273 195,285 198,273" fill="#a855f7"/>
+  <text x="155" y="254" font-family="monospace" font-size="11" fill="#a855f7" text-anchor="middle">Ø 16.000</text>
+  <!-- Tolerance -->
+  <text x="155" y="268" font-family="monospace" font-size="9" fill="rgba(168,85,247,0.5)" text-anchor="middle">TOL · H6</text>
+  <!-- Section labels -->
+  <text x="220" y="210" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">SHANK · h6</text>
+  <text x="535" y="205" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">4-FLUTE PCD SECTION</text>
+  <!-- Material notes -->
+  <text x="730" y="360" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · PCD GRADE DA90 ON CARBIDE SUBSTRATE</text>
+  <text x="730" y="375" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">TOLERANCE · H6 · Ra ≤ 0.4 µm</text>
+  <text x="730" y="390" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">COOLANT · MQL COMPATIBLE · INTERNAL CHANNEL</text>
+  <!-- Origin mark -->
+  <line x1="55" y1="55" x2="82" y2="55" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <line x1="55" y1="55" x2="55" y2="82" stroke="rgba(168,85,247,0.3)" stroke-width="1"/>
+  <circle cx="55" cy="55" r="2" fill="#a855f7" opacity="0.4"/>
+  <!-- Product code watermark -->
+  <text x="730" y="460" font-family="monospace" font-size="20" fill="rgba(168,85,247,0.4)" text-anchor="end" font-weight="bold" letter-spacing="2">PCD-H6</text>
+</svg>

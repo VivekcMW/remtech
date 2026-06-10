@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="800" height="500" fill="#0a0a0a"/>
+  <line x1="0" y1="125" x2="800" y2="125" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="250" x2="800" y2="250" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="375" x2="800" y2="375" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="200" y1="0" x2="200" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="500" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+  <!-- Center axis -->
+  <line x1="55" y1="250" x2="745" y2="250" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="8 4"/>
+  <!-- Shank -->
+  <rect x="65" y="232" width="220" height="36" fill="#161616" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Shoulder step -->
+  <path d="M 285 232 L 310 225 L 310 275 L 285 268 Z" fill="#181818" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- STEP 1 - smaller diameter cutting section -->
+  <rect x="310" y="225" width="160" height="50" fill="#1a1a1a" stroke="rgba(255,255,255,0.13)" stroke-width="1"/>
+  <!-- Flutes on step 1 -->
+  <line x1="325" y1="225" x2="343" y2="275" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="358" y1="225" x2="376" y2="275" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="391" y1="225" x2="409" y2="275" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="424" y1="225" x2="440" y2="275" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <!-- Transition shoulder -->
+  <path d="M 470 225 L 510 212 L 510 288 L 470 275 Z" fill="#181818" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <!-- STEP 2 - larger diameter cutting section -->
+  <rect x="510" y="212" width="180" height="76" fill="#1c1c1c" stroke="rgba(255,255,255,0.14)" stroke-width="1"/>
+  <!-- Flutes on step 2 -->
+  <line x1="528" y1="212" x2="550" y2="288" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="562" y1="212" x2="584" y2="288" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="596" y1="213" x2="616" y2="287" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="628" y1="213" x2="648" y2="287" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <line x1="658" y1="214" x2="676" y2="286" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <!-- Taper at tip -->
+  <path d="M 690 212 L 718 250 L 690 288 Z" fill="#1e1e1e" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <!-- STEP 1 diameter dimension -->
+  <line x1="175" y1="215" x2="175" y2="225" stroke="#10b981" stroke-width="1"/>
+  <line x1="175" y1="275" x2="175" y2="285" stroke="#10b981" stroke-width="1"/>
+  <line x1="175" y1="218" x2="175" y2="282" stroke="#10b981" stroke-width="1"/>
+  <polygon points="172,226 175,214 178,226" fill="#10b981"/>
+  <polygon points="172,274 175,286 178,274" fill="#10b981"/>
+  <text x="133" y="254" font-family="monospace" font-size="10" fill="#10b981" text-anchor="middle">Ø 1 · H7</text>
+  <!-- STEP 2 diameter dimension -->
+  <line x1="600" y1="192" x2="600" y2="212" stroke="#10b981" stroke-width="1"/>
+  <line x1="600" y1="288" x2="600" y2="308" stroke="#10b981" stroke-width="1"/>
+  <line x1="600" y1="195" x2="600" y2="305" stroke="#10b981" stroke-width="1"/>
+  <polygon points="597,213 600,201 603,213" fill="#10b981"/>
+  <polygon points="597,287 600,299 603,287" fill="#10b981"/>
+  <text x="640" y="254" font-family="monospace" font-size="10" fill="#10b981" text-anchor="middle">Ø 2 · H7</text>
+  <!-- Step label -->
+  <text x="390" y="205" font-family="monospace" font-size="9" fill="rgba(16,185,129,0.6)" text-anchor="middle" letter-spacing="1">STEP 1</text>
+  <text x="598" y="196" font-family="monospace" font-size="9" fill="rgba(16,185,129,0.6)" text-anchor="middle" letter-spacing="1">STEP 2</text>
+  <!-- Positional accuracy callout -->
+  <rect x="270" y="330" width="260" height="40" rx="2" fill="#0a0a0a" stroke="rgba(16,185,129,0.25)" stroke-width="1"/>
+  <text x="400" y="347" font-family="monospace" font-size="10" fill="rgba(16,185,129,0.7)" text-anchor="middle">POSITIONAL ACCURACY</text>
+  <text x="400" y="363" font-family="monospace" font-size="13" fill="#10b981" text-anchor="middle" font-weight="bold">±0.005 mm BETWEEN Ø</text>
+  <!-- Connecting lines to both steps -->
+  <line x1="390" y1="330" x2="390" y2="275" stroke="rgba(16,185,129,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="598" y1="330" x2="598" y2="288" stroke="rgba(16,185,129,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Section labels -->
+  <text x="175" y="205" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.2)" text-anchor="middle" letter-spacing="1">SHANK</text>
+  <!-- Material notes -->
+  <text x="730" y="420" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">MATERIAL · SOLID CARBIDE / BRAZED TIP</text>
+  <text x="730" y="435" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">TOLERANCE · H7 BOTH DIAMETERS</text>
+  <text x="730" y="450" font-family="monospace" font-size="9" fill="rgba(255,255,255,0.18)" text-anchor="end">COATING · TiAlN · CUSTOM TO DRAWING</text>
+  <!-- Origin mark -->
+  <line x1="55" y1="55" x2="82" y2="55" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <line x1="55" y1="55" x2="55" y2="82" stroke="rgba(16,185,129,0.3)" stroke-width="1"/>
+  <circle cx="55" cy="55" r="2" fill="#10b981" opacity="0.4"/>
+  <!-- Product code watermark -->
+  <text x="730" y="470" font-family="monospace" font-size="20" fill="rgba(16,185,129,0.4)" text-anchor="end" font-weight="bold" letter-spacing="2">MSR-DDD</text>
+</svg>
