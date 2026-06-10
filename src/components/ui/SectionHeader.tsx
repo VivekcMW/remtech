@@ -7,6 +7,7 @@ export interface SectionHeaderProps {
   heading:     React.ReactNode
   description?: React.ReactNode
   className?:  string
+  centered?:   boolean
 }
 
 export default function SectionHeader({
@@ -16,6 +17,7 @@ export default function SectionHeader({
   heading,
   description,
   className,
+  centered   = false,
 }: SectionHeaderProps) {
   const HeadingTag = `h${level}` as "h1" | "h2" | "h3"
   const headingCls = `heading-style-h${level}` as
@@ -24,9 +26,9 @@ export default function SectionHeader({
     | "heading-style-h3"
 
   return (
-    <div className={cn("", className)}>
+    <div className={cn(centered && "text-center", className)}>
       {labelStyle === "pill" ? (
-        <div className="pill-wrapper">
+        <div className={cn("pill-wrapper", centered && "justify-center")}>
           <div className="pill">{label}</div>
         </div>
       ) : (
