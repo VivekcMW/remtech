@@ -378,3 +378,134 @@ a:focus-visible .nav-hover-line::after {
     transition-duration: 0ms !important;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   CROSS-BROWSER COMPATIBILITY
+   Fallbacks and vendor prefixes for older browsers
+═══════════════════════════════════════════════════════════════════════════ */
+
+/* Backdrop filter fallback for browsers without support */
+@supports not ((-webkit-backdrop-filter: blur(8px)) or (backdrop-filter: blur(8px))) {
+  .backdrop-blur-sm,
+  .backdrop-blur-md,
+  .backdrop-blur-lg {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+  }
+  
+  [class*="bg-white/9"] {
+    background-color: rgba(255, 255, 255, 0.98) !important;
+  }
+  
+  [class*="bg-ow-975/"] {
+    background-color: rgba(10, 10, 10, 0.98) !important;
+  }
+  
+  [class*="bg-black/"] {
+    background-color: rgba(0, 0, 0, 0.85) !important;
+  }
+}
+
+/* Smooth scrolling with fallback */
+html {
+  scroll-behavior: smooth;
+}
+
+@supports not (scroll-behavior: smooth) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Flexbox gap fallback for older Safari */
+@supports not (gap: 1rem) {
+  .flex > * + * {
+    margin-left: 1rem;
+  }
+  
+  .flex-col > * + * {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+/* Aspect ratio fallback */
+@supports not (aspect-ratio: 1) {
+  .aspect-square::before,
+  .aspect-video::before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+  
+  .aspect-video::before {
+    padding-top: 56.25%;
+  }
+  
+  .aspect-square > *:first-child,
+  .aspect-video > *:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Focus visible fallback for older browsers */
+@supports not selector(:focus-visible) {
+  :focus {
+    outline: 2px solid var(--color-orange-500);
+    outline-offset: 2px;
+  }
+}
+
+/* Ensure touch targets are large enough (WCAG 2.5.5) */
+@media (pointer: coarse) {
+  button,
+  a,
+  input,
+  select,
+  textarea,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .pill {
+    border-width: 2px;
+  }
+  
+  button,
+  a {
+    text-decoration-thickness: 2px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print,
+  nav,
+  footer,
+  .scanline-sweep,
+  video,
+  canvas {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+}
